@@ -49,7 +49,6 @@ export const getPostById = async (id:string) => {
 
     const convertedHtml = postHtml.toString();
 
-
     return {
         id,
         html: convertedHtml,
